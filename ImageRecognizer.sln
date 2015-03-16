@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageRecognizer", "ImageRecognizer\ImageRecognizer.csproj", "{809FB845-92BA-43D6-AAF5-ED3DD243588D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogManager", "CatalogManager\CatalogManager.csproj", "{C83B0580-D358-4B9D-84B6-4A5A6B36416B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistGenerator", "PlaylistGenerator\PlaylistGenerator.csproj", "{75753576-5469-4448-9E3D-2D38F1EED0AA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{809FB845-92BA-43D6-AAF5-ED3DD243588D}.Debug.ActiveCfg = Debug|.NET
+		{809FB845-92BA-43D6-AAF5-ED3DD243588D}.Debug.Build.0 = Debug|.NET
+		{809FB845-92BA-43D6-AAF5-ED3DD243588D}.Release.ActiveCfg = Release|.NET
+		{809FB845-92BA-43D6-AAF5-ED3DD243588D}.Release.Build.0 = Release|.NET
+		{C83B0580-D358-4B9D-84B6-4A5A6B36416B}.Debug.ActiveCfg = Debug|.NET
+		{C83B0580-D358-4B9D-84B6-4A5A6B36416B}.Debug.Build.0 = Debug|.NET
+		{C83B0580-D358-4B9D-84B6-4A5A6B36416B}.Release.ActiveCfg = Release|.NET
+		{C83B0580-D358-4B9D-84B6-4A5A6B36416B}.Release.Build.0 = Release|.NET
+		{75753576-5469-4448-9E3D-2D38F1EED0AA}.Debug.ActiveCfg = Debug|.NET
+		{75753576-5469-4448-9E3D-2D38F1EED0AA}.Debug.Build.0 = Debug|.NET
+		{75753576-5469-4448-9E3D-2D38F1EED0AA}.Release.ActiveCfg = Release|.NET
+		{75753576-5469-4448-9E3D-2D38F1EED0AA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

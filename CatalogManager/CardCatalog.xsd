@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="CardCatalog" targetNamespace="http://www.leeholmes.com/schemas/CardCatalog.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://www.leeholmes.com/schemas/CardCatalog.xsd"
+	xmlns:mstns="http://www.leeholmes.com/schemas/CardCatalog.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:codegen="urn:schemas-microsoft-com:xml-msprop">
+	<xs:element name="CommandCards" codegen:typedName="CommandCard" codegen:typedPlural="CommandCards">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Id" type="xs:nonNegativeInteger" />
+				<xs:element name="Description" type="xs:string" />
+				<xs:element name="Command" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
